@@ -23,6 +23,6 @@ then
     Cpu_Idle='100'
 fi
 
-message="CpuIdle: ${Cpu_Idle} %  Mem: ${MemUsed}/${MemTotal} - Swap: ${SwapUsed}/${SwapTotal} - load: ${LoadAvg} - Conn: ${Conn}"
+message="CpuIdle: ${Cpu_Idle} % - Mem: ${MemUsed}/${MemTotal} - Swap: ${SwapUsed}/${SwapTotal} - load: ${LoadAvg} - Conn: ${Conn}"
 #echo $message
 log_script $message
