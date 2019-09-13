@@ -10,7 +10,7 @@ Script giám sát Cpu Idle, ram sử dụng, swap sử dụng, load trung bình,
 Cấp quyền thực thi
 
 ```
-chmod +x src/
+chmod +x src/*
 ```
 
 Chạy script
